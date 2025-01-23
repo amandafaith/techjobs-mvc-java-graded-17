@@ -29,6 +29,7 @@ public class SearchController {
     }
 
 
+
     @PostMapping("results")
     public String displaySearchResults(Model model, @RequestParam String searchType, @RequestParam String searchTerm) {
         ArrayList<Job> jobs;
